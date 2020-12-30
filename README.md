@@ -6,6 +6,8 @@ Un objetivo añadido es usar un componente para crear [tablas](https://bootstrap
 
 El verdadero reto de esta práctica es entender la documentación de una herramienta que puede hacernos ahorrar mucho trabajo si aprendemos a utilizarla.
 
+[DEMO](https://bootstrap-table.vercel.app/)
+
 ## Requisitos
 
 - Explora los diferentes __endpoints__ que nos ofrecen en esta Web. Busca aquel que nos permite recuperar información sobre la pandemia para un conjunto de países. Úsala en el mismo navegador para asegurarte que sabes como invocarla.
