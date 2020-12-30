@@ -1,4 +1,5 @@
 let url = "https://corona.lmao.ninja/v3/covid-19/countries/Spain,Italy,Germany,Poland,Finland"
+let warningCases = 10000
 
 function timeFormatter(value, row) {
   let d = new Date(value)
@@ -6,7 +7,7 @@ function timeFormatter(value, row) {
 }
 function cellStyle(value, row, index) {
 
-  if (value < 10000) {
+  if (value < warningCases) {
 
     return {
       classes: 'bg-success'
